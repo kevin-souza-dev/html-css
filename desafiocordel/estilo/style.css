@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+:root{
+    --font1: "Poetsen One", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: azure;
+
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 2.5em;
+}
+header P{
+    padding-bottom: 50px;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 4.5vw;
+    font-family: var(--font1);
+    
+}
+section.normal{
+    background-color: white;
+}
+section.img{
+    background-color: bisque;background-size: cover;
+    color: rgba(255, 255, 255, 0.793);
+    background-attachment: fixed;
+}
+section.img p{
+    background-color: rgba(10, 11, 11, 0.548);
+    max-width: 400px;
+    
+}
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position:right center;
+    
+    
+}
+section#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(198, 194, 194);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
